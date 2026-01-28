@@ -1,0 +1,44 @@
+# Site settings
+title: ZTX - Zero Trust X
+description: "Software-based security for 5G and next-generation wireless networks. Secure communications over infrastructure you don't control."
+url: "https://0trustx.com"
+baseurl: ""
+
+# Contact
+email: contact@0trustx.com
+location: "Arizona, USA"
+
+# Company info (update these with your actual values)
+cage_code: "XXXXX"
+uei: "XXXXXXXXXXXX"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Sass settings
+sass:
+  style: compressed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Technology
+    url: /technology/
+  - title: Contact
+    url: /contact/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
