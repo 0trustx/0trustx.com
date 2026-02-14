@@ -657,3 +657,22 @@ main {
     gap: 32px;
   }
 }
+
+/* Demo images */
+.demo-image {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.demo-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.image-caption {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-style: italic;
+}
